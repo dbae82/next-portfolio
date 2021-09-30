@@ -11,12 +11,14 @@ const Nav = () => {
                 <li>
                     <Link href='/'><a><Image src={logo} alt='logo' /></a></Link>
                 </li>
-                <li>
-                    <Link href='projects'>Projects</Link>
-                </li>
-                <li>
-                    <Link href='about'>About</Link>
-                </li>
+                <div className={navStyles.navComponents}>
+                    <li>
+                        <Link href='projects'>Projects</Link>
+                    </li>
+                    <li>
+                        <Link href='about'>About</Link>
+                    </li>
+                </div>
             </ul>
         </nav>
     )
