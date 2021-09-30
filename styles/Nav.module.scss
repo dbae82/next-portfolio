@@ -1,0 +1,17 @@
+$primaryColor: #233142;
+$secondaryColor: #455D7A;
+
+.navComponents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    li {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            color: $primaryColor;
+        }
+    }
+}
