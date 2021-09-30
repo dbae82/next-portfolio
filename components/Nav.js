@@ -6,20 +6,22 @@ import logo from '../assets/logo-dark.png'
 
 const Nav = () => {
     return (
-        <nav>
-            <ul className={navStyles.components}>
-                <li>
-                    <Link href='/'><a><Image src={logo} alt='logo' /></a></Link>
-                </li>
-                <div className={navStyles.components}>
+        <nav className={navStyles.nav}>
+            <div className={navStyles.container}>
+                <ul className={navStyles.components}>
                     <li>
-                        <Link href='projects'>projects</Link>
+                        <Link href='/'><a><Image src={logo} alt='logo' /></a></Link>
                     </li>
-                    <li>
-                        <Link href='about'>about</Link>
-                    </li>
-                </div>
-            </ul>
+                    <div className={`${navStyles.components} ${navStyles.navLinks}`}>
+                        <li>
+                            <Link href='projects' id='nav-link'>projects</Link>
+                        </li>
+                        <li>
+                            <Link href='about' id='nav-link'>about</Link>
+                        </li>
+                    </div>
+                </ul>
+            </div>
         </nav>
     )
 }

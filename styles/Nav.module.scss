@@ -1,22 +1,44 @@
 $primaryColor: #233142;
-$secondaryColor: #455D7A;
+$secondaryColor: #455d7a;
+
+.nav {
+  max-width: 1700px;
+  padding: 0 30px;
+}
+
+.container {
+  border-bottom: 2px solid $primaryColor;
+  max-width: 1500px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
 
 .components {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    li {
-        list-style-type: none;
+  img {
+    width: 125px;
+    height: auto;
+  }
 
-        a {
-            text-decoration: none;
-            color: $primaryColor;
-            font-size: 1.5rem;
-        }
+  li {
+    list-style-type: none;
 
-        a:hover {
-            color: $secondaryColor;
-        }
+    a {
+      text-decoration: none;
+      color: $primaryColor;
+      font-size: 1.5rem;
+      margin: 10px;
     }
+  }
+}
+
+.navLinks {
+  a:hover {
+    color: $secondaryColor;
+    border-bottom: 2px solid $secondaryColor;
+  }
 }
