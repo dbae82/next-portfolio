@@ -1,7 +1,7 @@
 $primaryColor: #233142;
 $secondaryColor: #455D7A;
 
-.navComponents {
+.components {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +12,11 @@ $secondaryColor: #455D7A;
         a {
             text-decoration: none;
             color: $primaryColor;
+            font-size: 1.5rem;
+        }
+
+        a:hover {
+            color: $secondaryColor;
         }
     }
 }

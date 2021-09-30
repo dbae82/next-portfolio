@@ -7,16 +7,16 @@ import logo from '../assets/logo-dark.png'
 const Nav = () => {
     return (
         <nav>
-            <ul className={navStyles.navComponents}>
+            <ul className={navStyles.components}>
                 <li>
                     <Link href='/'><a><Image src={logo} alt='logo' /></a></Link>
                 </li>
-                <div className={navStyles.navComponents}>
+                <div className={navStyles.components}>
                     <li>
-                        <Link href='projects'>Projects</Link>
+                        <Link href='projects'>projects</Link>
                     </li>
                     <li>
-                        <Link href='about'>About</Link>
+                        <Link href='about'>about</Link>
                     </li>
                 </div>
             </ul>
