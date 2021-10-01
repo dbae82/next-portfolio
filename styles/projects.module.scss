@@ -8,17 +8,4 @@ $secondaryColor: #455d7a;
   overflow: auto;
   font-size: 1.5rem;
   color: $primaryColor;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-  img {
-    border-radius: 50%;
-    width: 500px;
-    height: auto;
-  }
-}
-
-.portrait {
-  margin-top: 50px;
 }

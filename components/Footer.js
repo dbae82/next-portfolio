@@ -9,9 +9,9 @@ const Footer = () => {
                         &copy; 2021 dan bae
                     </li>
                     <div className={footerStyles.components}>
-                        <li><a>resume</a></li>
-                        <li><a>linkedin</a></li>
-                        <li><a>github</a></li>
+                        <li><a href='/resume.pdf' target='_blank'>resume</a></li>
+                        <li><a href='https://www.linkedin.com/in/dan-bae/' target='_blank'>linkedin</a></li>
+                        <li><a href='https://github.com/dbae82' target='_blank'>github</a></li>
                     </div>
                 </ul>
             </div>
