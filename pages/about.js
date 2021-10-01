@@ -6,7 +6,7 @@ const about = () => {
     return (
         <div className={aboutStyles.container}>
             <Meta title='About' />
-            <h1>About</h1>
+            <h1>About Me</h1>
         </div>
     )
 }
