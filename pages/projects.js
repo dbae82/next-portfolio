@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Meta from '../components/Meta'
 
 import projectStyles from '../styles/projects.module.scss'
@@ -12,22 +13,38 @@ const projects = () => {
         <>
             <Meta title='Projects' />
             <div className={projectStyles.container}>
-                <div className={projectStyles.card1}>
-                    <Image src={projectSportsTweets} alt="sports-tweets" />
-                    <h1>Project Sports Tweets</h1>
-                </div>
-                <div className={projectStyles.card2}>
-                <Image src={wayfarer} alt="project-wayfarer" />
-                    <h1>Project Wayfarer</h1>
-                </div>
-                <div className={projectStyles.card3}>
-                <Image src={badApple} alt="bad apple movies" />
-                    <h1>Bad Apple Movies</h1>
-                </div>
-                <div className={projectStyles.card4}>
-                <Image src={load} alt="project-l.o.a.d." />
-                    <h1>Project L.O.A.D</h1>
-                </div>
+                <Link href='projects/sports-tweets'>
+                    <a className={projectStyles.card1}>
+                        <div>
+                            <Image src={projectSportsTweets} alt="sports-tweets" />
+                            <h2>Project Sports Tweets</h2>
+                        </div>
+                    </a>
+                </Link>
+                <Link href='projects/project-wayfarer'>
+                    <a className={projectStyles.card2}>
+                        <div>
+                            <Image src={wayfarer} alt="project-wayfarer" />
+                            <h2>Project Wayfarer</h2>
+                        </div>
+                    </a>
+                </Link>
+                <Link href='projects/bad-apple-movies'>
+                    <a className={projectStyles.card3}>
+                        <div>
+                            <Image src={badApple} alt="bad apple movies" />
+                            <h2>Bad Apple Movies</h2>
+                        </div>
+                    </a>
+                </Link>
+                <Link href='projects/project-load'>
+                    <a className={projectStyles.card4}>
+                        <div>
+                            <Image src={load} alt="project-l.o.a.d." />
+                            <h2>Project L.O.A.D</h2>
+                        </div>
+                    </a>
+                </Link>
             </div>
         </>
     )

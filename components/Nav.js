@@ -14,10 +14,10 @@ const Nav = () => {
                     </li>
                     <div className={`${navStyles.components} ${navStyles.navLinks}`}>
                         <li>
-                            <Link href='projects' id='nav-link'>projects</Link>
+                            <Link href='/projects' id='nav-link'>projects</Link>
                         </li>
                         <li>
-                            <Link href='about' id='nav-link'>about</Link>
+                            <Link href='/about' id='nav-link'>about</Link>
                         </li>
                     </div>
                 </ul>
