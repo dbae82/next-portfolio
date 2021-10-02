@@ -20,9 +20,21 @@ $fontColor: #E3E3E3;
   height: 300px;
   border-radius: 10px;
   justify-self: center;
-  background-color: $primaryColor;
+  background-color: $secondaryColor;
   color: $fontColor;
-  padding: 30px;
+  position: relative;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+  }
 }
 
 .card2 {
@@ -32,7 +44,13 @@ $fontColor: #E3E3E3;
   justify-self: center;
   background-color: $thirdColor;
   color: $fontColor;
-  padding: 30px;
+  position: relative;
+
+  h1 {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+  }
 }
 
 .card3 {
@@ -40,9 +58,15 @@ $fontColor: #E3E3E3;
   height: 300px;
   border-radius: 10px;
   justify-self: center;
-  background-color: $secondaryColor;
+  background-color: $primaryColor;
   color: $fontColor;
-  padding: 30px;
+  position: relative;
+
+  h1 {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+  }
 }
 
 .card4 {
@@ -50,7 +74,13 @@ $fontColor: #E3E3E3;
   height: 300px;
   border-radius: 10px;
   justify-self: center;
-  background-color: $primaryColor;
+  background-color: $secondaryColor;
   color: $fontColor;
-  padding: 30px;
+  position: relative;
+
+  h1 {
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+  }
 }
