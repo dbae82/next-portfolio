@@ -1,5 +1,7 @@
 $primaryColor: #233142;
 $secondaryColor: #455d7a;
+$thirdColor: #F95959;
+$altColor: #E3E3E3;
 
 .container {
   max-width: 1350px;
@@ -8,4 +10,13 @@ $secondaryColor: #455d7a;
   overflow: auto;
   font-size: 1.5rem;
   color: $primaryColor;
+  display: flex;
+  
+  .col1 {
+    width: 500px;
+  }
+  
+  .col2 {
+    width: 700px;
+  }
 }

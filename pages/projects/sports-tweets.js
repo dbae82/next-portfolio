@@ -7,7 +7,13 @@ const sportsTweets = () => {
         <>
             <Meta title='Sports Tweets' />
             <div className={projectPageStyles.container}>
-                <h1>Sports Tweets</h1>
+                <div className={projectPageStyles.col1}>
+                    <h1>One stop shop</h1>
+                    <h1>for sports news</h1>
+                </div>
+                <div className={projectPageStyles.col2}>
+                    <p>Sports Tweets was my capstone project for my time at General Assembly. The idea came to me from a friend who wanted up to date news for his favorite sports. Powered by Twitter, I created Sports Tweets to stream the latest tweets depending on the user's choice of sport.</p>
+                </div>
             </div>
         </>
     )
