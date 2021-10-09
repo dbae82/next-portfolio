@@ -41,7 +41,7 @@ const projects = () => {
                     <a className={projectStyles.card4}>
                         <div>
                             <Image src={load} alt="project-l.o.a.d." />
-                            <h2>Project L.O.A.D</h2>
+                            <h2>Project L.O.A.D.</h2>
                         </div>
                     </a>
                 </Link>

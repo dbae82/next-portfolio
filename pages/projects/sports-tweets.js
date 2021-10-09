@@ -20,6 +20,14 @@ const sportsTweets = () => {
             <div className={projectPageStyles.projectGif}>
                 <Image src={projectGif} alt='sports-tweets' />
             </div>
+            <div className={projectPageStyles.container}>
+                <div className={projectPageStyles.col1}>
+                    <h2>Tech Stack</h2>
+                </div>
+                <div className={projectPageStyles.col2}>
+                    <p>Mongoose, Express, React, Node.js (MERN), MongoDB, Json Web Token</p>
+                </div>
+            </div>
         </>
     )
 }
